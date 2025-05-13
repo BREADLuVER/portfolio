@@ -8,6 +8,20 @@ import { TabDefault } from "../TabDefault";
 import "./style.css";
 
 export const Header = ({ className, tabDefaultTabDefaultClassName }) => {
+  const handleScrollToProjects = () => {
+    const el = document.getElementById('projects');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleScrollToContacts = () => {
+    const el = document.getElementById('contact');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className={`header ${className}`}>
       <div className="text-wrapper">Brad Yin</div>
@@ -17,11 +31,13 @@ export const Header = ({ className, tabDefaultTabDefaultClassName }) => {
           className="tab-default-instance"
           divClassName="design-component-instance-node"
           text="Projects"
+          onClick={handleScrollToProjects}
         />
         <TabDefault
           className={tabDefaultTabDefaultClassName}
           divClassName="design-component-instance-node"
           text="Contacts"
+          onClick={handleScrollToContacts}
         />
       </div>
     </div>

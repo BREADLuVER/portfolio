@@ -157,6 +157,7 @@ export const PortfolioSimple = () => {
           </div>
 
           <div
+            div id="projects"
             className="projects"
             style={{
               borderRadius:
@@ -284,6 +285,7 @@ export const PortfolioSimple = () => {
           </div>
 
           <img
+            id="contact"
             className="frame-6"
             style={{
               height:

@@ -26,13 +26,18 @@ export const Group = ({ property1, className }) => {
         dispatch("click");
       }}
     >
-      <div className="overlap-group">
-        {state.property1 === "default" && <div className="rectangle" />}
+      <a
+        href="/resume/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="overlap-group">
+          {state.property1 === "default" && <div className="rectangle" />}
+          <div className="div" />
+          <div className="text-wrapper-2">Resume</div>
+        </div>
+      </a>
 
-        <div className="div" />
-
-        <div className="text-wrapper-2">Resume</div>
-      </div>
     </div>
   );
 };

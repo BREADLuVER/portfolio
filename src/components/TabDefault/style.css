@@ -6,6 +6,16 @@
   left: -38px;
   position: relative;
   top: 202px;
+  cursor: pointer;
+}
+
+.tab-default:hover {
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.tab-default:hover .sobre {
+  color: chocolate;
 }
 
 .tab-default .sobre {

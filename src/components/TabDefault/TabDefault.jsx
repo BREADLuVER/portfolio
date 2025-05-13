@@ -7,9 +7,9 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const TabDefault = ({ className, divClassName, text = "Sobre" }) => {
+export const TabDefault = ({ className, divClassName, text = "Sobre", onClick }) => {
   return (
-    <div className={`tab-default ${className}`}>
+    <div className={`tab-default ${className}`} onClick={onClick}>
       <div className={`sobre ${divClassName}`}>{text}</div>
     </div>
   );
@@ -17,4 +17,5 @@ export const TabDefault = ({ className, divClassName, text = "Sobre" }) => {
 
 TabDefault.propTypes = {
   text: PropTypes.string,
+  onClick: PropTypes.func,
 };
