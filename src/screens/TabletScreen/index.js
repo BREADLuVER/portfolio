@@ -1,0 +1,1 @@
+export { TabletScreen } from "./TabletScreen";

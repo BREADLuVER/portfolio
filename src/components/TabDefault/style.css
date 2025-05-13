@@ -1,0 +1,23 @@
+.tab-default {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  left: -38px;
+  position: relative;
+  top: 202px;
+}
+
+.tab-default .sobre {
+  color: var(--font-high-emphasis);
+  font-family: var(--body-18px-font-family);
+  font-size: var(--body-18px-font-size);
+  font-style: var(--body-18px-font-style);
+  font-weight: var(--body-18px-font-weight);
+  letter-spacing: var(--body-18px-letter-spacing);
+  line-height: var(--body-18px-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

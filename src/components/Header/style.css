@@ -1,0 +1,44 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 120px;
+  position: relative;
+  width: 1200px;
+}
+
+.header .text-wrapper {
+  color: var(--font-high-emphasis);
+  font-family: "Comfortaa", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32.4px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.header .nav {
+  align-items: flex-start;
+  display: flex;
+  gap: 48px;
+  position: relative;
+  width: 191px;
+}
+
+.header .tab-default-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.header .design-component-instance-node {
+  font-family: "Raleway", Helvetica !important;
+  font-size: 18px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 28px !important;
+}

@@ -1,0 +1,45 @@
+.project-nfo {
+  align-items: flex-start;
+  background-color: var(--bg-white);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 524px;
+  padding: 125px 49px;
+  position: relative;
+  width: 719px;
+}
+
+.project-nfo .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.project-nfo .text {
+  align-self: stretch;
+  color: var(--font-high-emphasis);
+  font-family: "Playfair Display", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.project-nfo .p {
+  align-self: stretch;
+  color: var(--font-medium-emphasis);
+  font-family: "Nunito", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+}
