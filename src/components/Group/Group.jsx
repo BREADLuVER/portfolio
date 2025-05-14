@@ -27,7 +27,7 @@ export const Group = ({ property1, className }) => {
       }}
     >
       <a
-        href="/resume/resume.pdf"
+        href={`${import.meta.env.BASE_URL}resume/resume.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >

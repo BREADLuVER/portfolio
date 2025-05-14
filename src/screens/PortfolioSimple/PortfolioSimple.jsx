@@ -64,7 +64,7 @@ export const PortfolioSimple = () => {
             please use a tablet or a PC for better view
           </p>
 
-          <img className="img" alt="Frame" src="/img/frame-3355-2-1-1.png" />
+          <img className="img" alt="Frame" src={`${import.meta.env.BASE_URL}img/frame-3355-2-1-1.png`} />
         </div>
       )}
 
@@ -84,7 +84,7 @@ export const PortfolioSimple = () => {
                     <img
                       className="image"
                       alt="Image"
-                      src="/img/image-1-1-1.png"
+                      src={`${import.meta.env.BASE_URL}img/image-1-1-1.png`}
                     />
 
                     <p className="title">
@@ -142,13 +142,13 @@ export const PortfolioSimple = () => {
                     <img
                       className="vector"
                       alt="Vector"
-                      src="/img/vector.png"
+                      src={`${import.meta.env.BASE_URL}img/vector.png`}
                     />
 
                     <img
                       className="mask-group"
                       alt="Mask group"
-                      src="/img/mask-group.png"
+                      src={`${import.meta.env.BASE_URL}img/mask-group.png`}
                     />
                   </div>
                 </>
@@ -198,7 +198,7 @@ export const PortfolioSimple = () => {
                     text1="At AMD, I helped build the Radeon Display Insights Portal—a React-based internal tool for the Display QA team to track and validate real-time GPU telemetry. The dashboard replaced legacy systems and supported new display tech like DisplayPort 2.1 and HDR10+. I worked on features like the HDR timeline viewer, FreeSync drift monitor, and a heatmap of display faults."
                   />
                   <div className="image-wrapper">
-                    <img className="image-3" alt="Image" src="/img/image.png" />
+                    <img className="image-3" alt="Image" src={`${import.meta.env.BASE_URL}img/image.png`} />
                   </div>
                 </>
               )}
@@ -232,7 +232,7 @@ export const PortfolioSimple = () => {
 
               {screenWidth >= 1200 && (
                 <>
-                  <img className="image-4" alt="Image" src="/img/image-1.png" />
+                  <img className="image-4" alt="Image" src={`${import.meta.env.BASE_URL}img/image-1.png`} />
 
                   <ProjectNfo
                     frameClassName="project-nfo-2"
@@ -278,7 +278,7 @@ export const PortfolioSimple = () => {
                     text1="At Ironbound, I developed a progressive web app that replaced paper-based check-ins and payroll tracking for early childhood centers. The app supported offline-first recording, syncing data to Firestore when online. I built accessible, responsive forms using semantic HTML and Flexbox, structured the UI with React Router, and managed state via Redux Toolkit. I also introduced Storybook for component previews and maintained strong test coverage with Jest and Cypress. We shipped in two-week sprints, regularly demoing to staff for real-world feedback."
                     textClassName="project-nfo-5"
                   />
-                  <img className="image-4" alt="Image" src="/img/image-2.png" />
+                  <img className="image-4" alt="Image" src={`${import.meta.env.BASE_URL}img/image-2.png`} />
                 </>
               )}
             </div>
@@ -310,7 +310,7 @@ export const PortfolioSimple = () => {
                     : undefined,
             }}
             alt="Frame"
-            src="/img/frame-3355-2-1-1.png"
+            src={`${import.meta.env.BASE_URL}img/frame-3355-2-1-1.png`}
           />
         </>
       )}
