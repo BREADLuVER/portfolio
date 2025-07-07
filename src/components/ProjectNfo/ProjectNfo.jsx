@@ -12,7 +12,7 @@ export const ProjectNfo = ({
   frameClassName,
   text = "AMD (2023-present)",
   textClassName,
-  text1 = "At AMD, I helped build the Radeon Display Insights Portal—a React + TypeScript dashboard used by the Display QA team to track real-time GPU telemetry for technologies like DisplayPort 2.1, HDR10+, and FreeSync. We replaced a tangle of older tools with a single, modern interface that visualized things like HDR activation timelines, refresh rate drift, and fault heatmaps across GPU models and firmware. I also co-developed a companion React Native app for QA engineers on the floor to scan displays, log faults, and view live test data while moving between setups—complete with local caching and QR-based pairing. The goal was to make telemetry not just accurate, but accessible wherever the work was happening.",
+  text1 = "At AMD, I developed the Radeon Display Insights Portal—a React + TypeScript dashboard used by the Display QA team to track real-time GPU telemetry for technologies like DisplayPort 2.1, HDR10+, and FreeSync. We replaced a tangle of older tools with a single, modern interface that visualized things like HDR activation timelines, refresh rate drift, and fault heatmaps across GPU models and firmware. I also developed a companion React Native app for QA engineers on the floor to scan displays, log faults, and view live test data while moving between setups—complete with local caching and QR-based pairing. The goal was to make telemetry not just accurate, but accessible wherever the work was happening.",
 }) => { 
   return (
     <div className={`project-nfo ${className}`}>
