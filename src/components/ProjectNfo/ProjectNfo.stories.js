@@ -11,7 +11,6 @@ export const Default = {
     frameClassName: {},
     text: "AMD (2023-present)",
     textClassName: {},
-    text1:
-      "At AMD, I helped build the Radeon Display Insights Portal—a React-based internal tool for the Display QA team to track and validate real-time GPU telemetry. The dashboard replaced legacy systems and supported new display tech like DisplayPort 2.1 and HDR10+. I worked on features like the HDR timeline viewer, FreeSync drift monitor, and a heatmap of display faults.",
+    text1: "At AMD, I built AMD’s new QA telemetry dashboard for GPU display validation using React 18, TypeScript, Node.js, and WebSockets. Delivered tools like the HDR Timeline Viewer and FreeSync Inspector for real-time debugging. Shipped internal systems for log tagging, anomaly detection, and replayable test sessions. Collaborated with firmware teams to standardize telemetry formats. Stack: React, Node.js, D3.js, PostgreSQL, Docker, WebSocket, Jest, Storybook, GitLab",
   },
 };

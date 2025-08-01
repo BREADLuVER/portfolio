@@ -47,7 +47,7 @@ export const TabletScreen = () => {
           <ProjectNfo
             className="project-nfo-6"
             text="AMD (2023-present)"
-            text1="At AMD, I helped build the Radeon Display Insights Portal—a React-based internal tool for the Display QA team to track and validate real-time GPU telemetry. The dashboard replaced legacy systems and supported new display tech like DisplayPort 2.1 and HDR10+. I worked on features like the HDR timeline viewer, FreeSync drift monitor, and a heatmap of display faults."
+            text1="At AMD, I built AMD’s new QA telemetry dashboard for GPU display validation using React 18, TypeScript, Node.js, and WebSockets. Delivered tools like the HDR Timeline Viewer and FreeSync Inspector for real-time debugging. Shipped internal systems for log tagging, anomaly detection, and replayable test sessions. Collaborated with firmware teams to standardize telemetry formats. Stack: React, Node.js, D3.js, PostgreSQL, Docker, WebSocket, Jest, Storybook, GitLab"
           />
         </div>
 
@@ -56,7 +56,7 @@ export const TabletScreen = () => {
             className="project-nfo-7"
             frameClassName="project-nfo-8"
             text="Rosenblum Law (2021-2023)"
-            text1="At Rosenblum Law, I built CaseSight Portal—an AI-powered OCR tool that automated case intake for traffic ticket submissions across NY and NJ. The system parsed scanned tickets from uploads, emails, and in-person submissions, extracting key legal data and syncing it to the firm’s CMS. I worked with attorneys and paralegals to design workflows tailored to compliance needs and high document variability."
+            text1="At Rosenblum Law, I led development of CaseSight, an OCR-based legal intake platform that automated ticket processing using Google Vision, Azure OCR, and custom Python pipelines. Built a TypeScript dashboard with diff previews, form overrides, and analytics tools to surface accuracy trends and intake performance. Stack: React, Node.js, Django, Python, Celery, RabbitMQ, PostgreSQL, REST, Docker"
             textClassName="project-nfo-9"
           />
         </div>
@@ -65,8 +65,8 @@ export const TabletScreen = () => {
           <ProjectNfo
             className="project-nfo-7"
             frameClassName="project-nfo-8"
-            text="Ironbound CC (2023-present)"
-            text1="At Ironbound, I developed a progressive web app that replaced paper-based check-ins and payroll tracking for early childhood centers. The app supported offline-first recording, syncing data to Firestore when online. I built accessible, responsive forms using semantic HTML and Flexbox, structured the UI with React Router, and managed state via Redux Toolkit. I also introduced Storybook for component previews and maintained strong test coverage with Jest and Cypress. We shipped in two-week sprints, regularly demoing to staff for real-world feedback."
+            text="Ironbound CC (2019-2021)"
+            text1="At Ironbound, I built an Angular (v12) offline-first web app for daycare check-ins and staff scheduling. Designed dynamic forms and real-time sync via NgRx, IndexedDB, and a .NET Core API. Created an internal admin panel with audit logs and role-based settings; optimized performance for classroom tablets. Stack: Angular, NgRx, RxJS, IndexedDB, .NET Core, Jasmine, Cypress"
             textClassName="project-nfo-10"
           />
         </div>
