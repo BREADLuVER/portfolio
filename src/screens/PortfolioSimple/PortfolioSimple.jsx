@@ -103,7 +103,6 @@ export const PortfolioSimple = () => {
                     </div>
 
                     <div className="buttons">
-                      <Group className="group-5" property1="default" />
                       <Group className="group-5" property1="default" type="github" />
                     </div>
                   </div>
@@ -134,7 +133,6 @@ export const PortfolioSimple = () => {
                       </div>
 
                       <div className="buttons">
-                        <Group className="group-5" property1="default" />
                         <Group className="group-5" property1="default" type="github" />
                       </div>
                     </div>

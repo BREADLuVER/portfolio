@@ -29,7 +29,7 @@ export const TabletScreen = () => {
               </div>
 
               <div className="group-wrapper">
-                <Group className="group-instance" property1="default" />
+                <Group className="group-instance" property1="default" type="github" />
               </div>
             </div>
           </div>
